@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+    </div>
+    <div class="box">
+        <h2>Random Password Generator</h2>
+        <div class="inputs">
+            <input type="text" placeholder="Liczba znaków: (domyślnie 12)" maxlength="2" id="number">
+            <input type="text" name="" placeholder="Wygenerowane hasło" id="password" readonly>
+        </div>
+        <div class="table">
+            <button id="button" class="btn1" onclick="genPassword()">Generuj</button>
+            <button id="button" class="btn2" onclick="copyPassword()">Kopiuj</button>
+        </div>
+    </div>
+    
+    <script src="src/script/index.js"></script>
+</body>
+</html>
