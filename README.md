@@ -1,3 +1,3 @@
 # Random password generator
 Aplikacja do generowania losowych haseł.
-### Link: [randompassword.grubyisking.pl](randompassword.grubyisking.pl)
+### Link: [randompassword.grubyisking.pl](https://randompassword.grubyisking.pl)
